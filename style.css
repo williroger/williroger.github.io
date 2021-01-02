@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FEDA14;
+    font-family: 'Merriweather', serif;
+    transition: all 0.5s ease;
+    background-image: url(./poeira.png);
+    background-size: cover;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.intro-text {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.bg-ativado{
+    background-color: #263571;
+}
