@@ -1,0 +1,70 @@
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.imagem {
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/v101_17.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 30vh; 
+  opacity: 1;
+  position: absolute;
+  overflow: hidden;
+}
+.willi, .roger {
+
+  color: rgba(0,180,50,1);
+  position: absolute;
+  font-family: Fira Code;
+  font-weight: Bold;
+  font-size: 30rem;
+  opacity: 1;
+  /* text-align: center; */
+  /* left: 450px; */
+  text-align: center;
+  vertical-align: middle;
+  left: 10vw;
+}
+
+.willi {
+  top: 40vh;
+}
+.roger {
+  top: 50vh;
+}
+.redes {
+  width: 345px;
+  color: rgba(0,180,50,1);
+  position: absolute;
+  top: 40vh;
+  left: 75vw;
+  font-family: Fira Code;
+  font-weight: Bold;
+  font-size: 15rem;
+  opacity: 1;
+  text-align: center;
+  align-items: center;
+  pointer-events: auto;
+  list-style-type: '.';
+}
+.redes :hover {
+  /* font-weight: normal; */
+  list-style-type: 'cd .';
+  /* font-size: 12rem; */
+}
+
+/* @media (max-width: 620px){
+  
+  .willi, .roger {
+    font-size: 10rem;
+  }
+} */
