@@ -26,7 +26,7 @@ body{
   position: absolute;
   font-family: Fira Code;
   font-weight: Bold;
-  font-size: 30rem;
+  font-size: 30px;
   opacity: 1;
   /* text-align: center; */
   /* left: 450px; */
@@ -49,7 +49,7 @@ body{
   left: 75vw;
   font-family: Fira Code;
   font-weight: Bold;
-  font-size: 15rem;
+  font-size: 15px;
   opacity: 1;
   text-align: center;
   align-items: center;
