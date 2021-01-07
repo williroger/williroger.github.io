@@ -121,3 +121,36 @@ main {
     opacity: 0.7;
     cursor: pointer;
 }
+
+
+@media (max-width: 700px) {
+    .card {
+        width: min(80vw);
+        height: min(70vh);
+        border-radius: 10px;
+    }
+
+    .card h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .close p {
+        font-size: 12px;
+    }
+
+    .avatar {
+        width: 90px;
+        height: 90px;
+
+        margin: auto;
+        margin-top: 20%;
+        margin-left: 34%;
+    }
+
+    .banner {
+        border-radius: 4px 4px 0 0;
+    }
+
+
+
+}
