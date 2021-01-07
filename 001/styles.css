@@ -22,22 +22,26 @@ main {
     background: white;
     width: min(33.33vw, 350px);
     height: min(44.33vh, 400px);
-    border: 5px solid red;
+    border: 5px solid rgba(255, 0, 0, 0.849);
     border-radius: 5%;
     position: absolute;
+    /* box-shadow: 0 2px 4px 0 rgba(131, 60, 60, 0.596), 0 6px 20px 0 rgba(182, 46, 46, 0.507); */
 
 }
 
 .card:hover{
-        border: 5px outset red;
+        border: 5px solid red;
         /* width: min(33vw, 345px);
         height: min(44vh, 395px); */
+        transition: 0.5s;
+        box-shadow: 0 4px 8px 0 rgba(131, 60, 60, 0.596), 0 6px 20px 0 rgba(182, 46, 46, 0.507);
 }
 
 
 .card h1 {
     font-size: 25px;
     font-weight: bold;
+    margin: 10px;
 }
 
 
