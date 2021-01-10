@@ -6,6 +6,11 @@ body {
     color: #DC3546;
     font-size: 18px;
 }
+
+.menu-link:hover {
+    color: #DC3546;
+}
+
 .uphover:hover {
     color: white;
 }
